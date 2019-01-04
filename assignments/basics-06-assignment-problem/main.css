@@ -1,0 +1,40 @@
+body{
+  font-family: sans-serif;
+}
+
+h1{
+  font-family: sans-serif;
+  color: #222;
+}
+
+code{
+	font-family: monospace;
+	color: #F00;
+}
+
+li code:first-child(){
+
+}
+
+.green{
+	color: #0F0;
+}
+
+li:not(:first-child){
+	background-color: #000;
+	color:#FFF;
+}
+
+ol li{
+  background-color: #000;
+  color:#FFF;
+}
+
+li + li {
+
+
+}
+
+li ~ li{
+
+}
